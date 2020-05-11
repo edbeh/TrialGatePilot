@@ -1,0 +1,1 @@
+export const record_size = 10;

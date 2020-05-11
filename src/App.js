@@ -1,26 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import BrowseTrials from './BrowseTrials.js';
+import BrowseFavourites from './BrowseFavourites.js';
+import NotFound from './NotFound.js';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+    return (
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
+            <React.Fragment>
+                <Switch>
+                    <Route exact path="/" component={BrowseTrials} />
+                    <Route exact path="/favourites" component={BrowseFavourites} />
+                    <Route component={NotFound} />
+                </Switch>
+            </React.Fragment>
+        </BrowserRouter>
+    )
 }
 
 export default App;
