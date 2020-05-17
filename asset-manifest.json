@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/TrialGatePilot/static/css/main.75a0d7a0.chunk.css",
+    "main.css": "/TrialGatePilot/static/css/main.fff1776e.chunk.css",
     "main.js": "/TrialGatePilot/static/js/main.838ca06a.chunk.js",
     "main.js.map": "/TrialGatePilot/static/js/main.838ca06a.chunk.js.map",
     "runtime-main.js": "/TrialGatePilot/static/js/runtime-main.d0186b07.js",
@@ -8,9 +8,9 @@
     "static/js/2.6b881587.chunk.js": "/TrialGatePilot/static/js/2.6b881587.chunk.js",
     "static/js/2.6b881587.chunk.js.map": "/TrialGatePilot/static/js/2.6b881587.chunk.js.map",
     "index.html": "/TrialGatePilot/index.html",
-    "precache-manifest.05c10dccb276843cfc24d4022eeb5a0e.js": "/TrialGatePilot/precache-manifest.05c10dccb276843cfc24d4022eeb5a0e.js",
+    "precache-manifest.f88c5b6265debad34f8409ef2bae1228.js": "/TrialGatePilot/precache-manifest.f88c5b6265debad34f8409ef2bae1228.js",
     "service-worker.js": "/TrialGatePilot/service-worker.js",
-    "static/css/main.75a0d7a0.chunk.css.map": "/TrialGatePilot/static/css/main.75a0d7a0.chunk.css.map",
+    "static/css/main.fff1776e.chunk.css.map": "/TrialGatePilot/static/css/main.fff1776e.chunk.css.map",
     "static/js/2.6b881587.chunk.js.LICENSE.txt": "/TrialGatePilot/static/js/2.6b881587.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/TrialGatePilot/static/media/logo.2515bf7d.svg",
     "static/media/not-found.jpg": "/TrialGatePilot/static/media/not-found.3f46d8aa.jpg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.d0186b07.js",
     "static/js/2.6b881587.chunk.js",
-    "static/css/main.75a0d7a0.chunk.css",
+    "static/css/main.fff1776e.chunk.css",
     "static/js/main.838ca06a.chunk.js"
   ]
 }
